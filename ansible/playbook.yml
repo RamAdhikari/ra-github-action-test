@@ -1,0 +1,7 @@
+---
+- name: Production server message task
+  hosts: production
+  tasks:
+    - name: Print message on production inventory and server
+      debug:
+        msg: "This playbook is running on the production inventory and prod server"
