@@ -3,5 +3,5 @@
   hosts: production
   tasks:
     - name: Print message on production inventory and server
-      ansible.buitlin.debug:
+      ansible.builtin.debug:
         msg: "This playbook is running on the production inventory and prod server"
