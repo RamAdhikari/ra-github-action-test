@@ -13,7 +13,7 @@ jobs:
     - name: checkout sources
       uses: actions/checkout@v2
     - name: linting
-      uses: ansible/ansible-lint-action@v2.0.0
+      uses: ansible/ansible-lint-action@v2
       with: 
         targets:
           ansible/playbook.yml
