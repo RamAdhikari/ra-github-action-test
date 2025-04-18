@@ -16,5 +16,5 @@ jobs:
         uses: ansible/ansible-lint@main
         with:
           targets:
-            - ansible/playbook.yml
-            - ansible/inventory.yml
+            ansible/playbook.yml
+            ansible/inventory.yml
