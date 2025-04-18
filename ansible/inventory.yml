@@ -4,7 +4,6 @@ all:
     production:
       hosts:
         prod-server-1
-        
     staging:
       hosts:
         staging-server-1
